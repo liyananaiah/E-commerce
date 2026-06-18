@@ -1,32 +1,85 @@
-# E-Commerce Platform
+# E-Commerce Website 🛒
 
-A full-stack e-commerce web application built using PHP, MySQL, JavaScript, AJAX, and Bootstrap.
+A PHP and MySQL based e-commerce website inspired by Amazon. The application allows users to register, log in, browse products, manage their shopping cart, and complete the checkout process.
 
 ## Features
 
-- User Registration
-- User Login & Logout
-- Product Listing
-- Category Filtering
-- Brand Filtering
-- Product Search
-- Shopping Cart
-- Product Quick View
-- Checkout Process
-- Order Management
+### User Features
+
+* User Registration
+* User Login & Logout
+* Product Browsing
+* Product Search
+* Shopping Cart Management
+* Customer Profile
+* Checkout Flow
+* Payment Success Page
 
 ## Technologies Used
 
-- PHP
-- MySQL
-- JavaScript
-- jQuery
-- AJAX
-- Bootstrap
+* PHP
+* MySQL
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* jQuery
 
-## Setup
+## Database
 
-1. Import the database file.
-2. Configure database connection settings.
-3. Start Apache and MySQL.
-4. Open the application in your browser.# E-commerce
+The project uses MySQL for storing:
+
+* User Information
+* Product Data
+* Customer Records
+* Order Information
+
+Database file:
+
+```txt
+database/dbs.sql
+```
+
+## Project Structure
+
+```txt
+amazon-clone-ecommerce/
+
+├── assets/
+├── includes/
+├── database/
+│   └── dbs.sql
+
+├── index.php
+├── login.php
+├── logout.php
+├── register.php
+├── customer_registration.php
+├── profile.php
+├── payment_success.php
+├── dbconnect.php
+├── styles.css
+
+├── README.md
+└── .gitignore
+```
+
+## Installation
+
+1. Install XAMPP
+2. Start Apache and MySQL
+3. Import `database/dbs.sql` into phpMyAdmin
+4. Place the project inside the `htdocs` folder
+5. Open the project in your browser using localhost
+
+## Project Overview
+
+This project demonstrates:
+
+* User Authentication
+* Session Management
+* Database Connectivity
+* Form Validation
+* Shopping Cart Functionality
+* E-Commerce Workflow
+* MySQL Database Operations
