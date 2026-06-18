@@ -40,29 +40,6 @@ Database file:
 database/dbs.sql
 ```
 
-## Project Structure
-
-```txt
-amazon-clone-ecommerce/
-
-├── assets/
-├── includes/
-├── database/
-│   └── dbs.sql
-
-├── index.php
-├── login.php
-├── logout.php
-├── register.php
-├── customer_registration.php
-├── profile.php
-├── payment_success.php
-├── dbconnect.php
-├── styles.css
-
-├── README.md
-└── .gitignore
-```
 
 ## Installation
 
